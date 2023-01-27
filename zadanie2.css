@@ -13,7 +13,7 @@ hr {
   top: 82px;
 }
 
-#jeden {
+#firstdiv {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -93,7 +93,7 @@ button {
   margin: 2px 10px;
 }
 
-.dwa {
+.seconddiv {
   position: relative;
   display: flex;
   width: 1250px;
@@ -104,7 +104,7 @@ button {
   border-radius: 10px;
 }
 
-#filtry {
+#filters {
   display: flex;
   align-items: center;
 }
@@ -113,7 +113,7 @@ button {
   display: none;
 }
 
-.Frontend {
+.categories {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +126,7 @@ button {
   margin-left: 18px;
 }
 
-.Frontend > label {
+.categories > label {
   display: flex;
   align-items: center;
 }
@@ -149,7 +149,7 @@ button {
   font-family: "Lexend Deca", sans-serif;
 }
 
-.seniori {
+.seniority {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,7 +165,7 @@ button {
   font-family: "Lexend Deca", sans-serif;
 }
 
-.trzy {
+.thirddiv {
   display: flex;
   position: relative;
   width: 1250px;
@@ -187,7 +187,7 @@ button {
   align-items: center;
 }
 
-.opcje {
+.options {
   margin-left: 18px;
 }
 
@@ -197,14 +197,14 @@ button {
   align-items: center;
 }
 
-.zdjecie {
+.photo {
   border: 1px solid;
   border-radius: 10px;
   height: 30px;
   margin-right: 8px;
 }
 
-.dod {
+.plus2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,7 +231,7 @@ button {
   margin-left: 118px;
 }
 
-.cztery {
+.fourthdiv {
   display: flex;
   position: relative;
   width: 1250px;
@@ -265,7 +265,7 @@ button {
   margin-left: 10px;
 }
 
-.pięć {
+.fifthdiv {
   display: flex;
   box-sizing: border-box;
   position: absolute;
@@ -280,7 +280,7 @@ button {
   border-radius: 10px;
 }
 
-.pięć > img {
+.fifthdiv > img {
   position: relative;
   width: 75px;
   height: 92px;
@@ -340,7 +340,7 @@ button {
   font-weight: 700;
 }
 
-.sześć {
+.sixthdiv {
   display: flex;
   box-sizing: border-box;
   position: absolute;
@@ -355,7 +355,7 @@ button {
   border-radius: 10px;
 }
 
-.siedem {
+.seventhdiv {
   display: flex;
   box-sizing: border-box;
   position: absolute;
@@ -370,7 +370,7 @@ button {
   border-radius: 10px;
 }
 
-.osiem {
+.eighthdiv {
   display: flex;
   box-sizing: border-box;
   position: absolute;
