@@ -26,9 +26,39 @@ hr {
   left: 53px;
   top: 20px;
 }
-button {
+
+.magnifier {
+  display: flex;
+  width: 27px;
+  border: 1px solid;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  position: relative;
+  left: 90px;
+  background-color: white;
+}
+
+.inputsearch {
+  display: flex;
+  border: 1px solid;
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+  align-items: center;
+  color: rgb(128 128 128);
+}
+
+.inputsearch > input {
+  border: none;
+  margin-left: 10px;
+}
+
+.buttons > button {
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
 
   display: flex;
   flex-direction: row;
@@ -70,7 +100,7 @@ button {
 
 .menu > a {
   color: #000;
-  text-decoration: dotted;
+  text-decoration: none;
   margin-left: 25px;
 }
 
@@ -91,6 +121,7 @@ button {
   text-align: center;
   display: inline-block;
   margin: 2px 10px;
+  font-weight: 700;
 }
 
 .seconddiv {
@@ -107,6 +138,7 @@ button {
 #filters {
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .checkbox {
@@ -146,6 +178,7 @@ button {
   width: 90px;
   color: white;
   margin-left: 18px;
+  text-align: center;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -162,6 +195,7 @@ button {
   margin-left: 94px;
   margin-top: 20px;
   margin-right: 18px;
+  text-align: center;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -191,7 +225,7 @@ button {
   margin-left: 18px;
 }
 
-.opcje > label {
+.options > label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,6 +249,7 @@ button {
   width: 90px;
   color: #000;
   margin-left: 18px;
+  text-align: center;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -315,7 +350,7 @@ button {
 
 .new {
   position: relative;
-  top: 5px;
+  top: 7px;
 }
 
 .applybutton {
@@ -324,7 +359,9 @@ button {
   background-color: white;
   color: black;
   width: 150px;
-  font-weight: 700;
+  font-weight: 800;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .languages {
@@ -338,6 +375,10 @@ button {
 
 .fontweight {
   font-weight: 700;
+}
+
+.fontweight2 {
+  font-size: 12px;
 }
 
 .sixthdiv {
@@ -382,5 +423,121 @@ button {
   background: #ffffff;
   border: 1px solid #222426;
   box-shadow: 0px 2px 8px rgb(22 32 75 / 19%);
+  border-radius: 10px;
+}
+
+.frame1 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 14px;
+  top: 18px;
+  background: #31e8ff;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame2 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 164px;
+  top: 18px;
+  background: #00ff93;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame3 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 313px;
+  top: 18px;
+  background: #8415ff;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame4 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 463px;
+  top: 18px;
+  background: #fd4dc7;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame5 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 613px;
+  top: 18px;
+  background: #ff8227;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame6 {
+  position: absolute;
+  width: 42px;
+  height: 40px;
+  left: 763px;
+  top: 18px;
+  background: #fdff00;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.frame7 {
+  position: relative;
+  width: 42px;
+  height: 88px;
+  left: 45px;
+  top: 7px;
+  background: #8415ff;
+  border: 1px solid #222426;
+  border-radius: 10px;
+}
+
+.frame8 {
+  position: relative;
+  width: 42px;
+  height: 88px;
+  left: 45px;
+  top: 23px;
+  background: #ff8227;
+  border: 1px solid #222426;
+  border-radius: 10px;
+}
+
+.frame9 {
+  position: relative;
+  width: 42px;
+  height: 88px;
+  left: 45px;
+  top: 39px;
+  background: #fdff00;
+  border: 1px solid #222426;
+  border-radius: 10px;
+}
+
+.frame10 {
+  position: relative;
+  width: 42px;
+  height: 88px;
+  left: 45px;
+  top: 54px;
+  background: #00ff93;
+  border: 1px solid #222426;
   border-radius: 10px;
 }
